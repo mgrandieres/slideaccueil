@@ -1,0 +1,342 @@
+/*
+** PALETTES COULEURS 
+*/
+/*  
+Bleu = #3ca1df 
+Rouge = #CC0000
+Rouge pale = #FF6666
+Blanc pale = #E9EBEE
+Dégradé = 
+*/
+
+/*
+** POLICES 
+*/
+/*
+Oswald
+Lato
+*/
+
+/**
+* *
+*/
+img{
+    object-fit: cover;
+}
+
+p{
+    font-family: "Lato";
+    font-size: 17px;  
+}
+
+@media (max-width: 767px) { 
+    p{
+        text-indent: 0;
+    } 
+}
+
+h1.titleBlue{
+    font-family: 'Oswald';
+    color: #3ca1df;
+    text-align: center;
+}
+
+span.pRed{
+    color: #CC0000;
+    
+}
+
+
+
+/**********************************************/
+
+/*
+** NAVBAR 
+*/
+nav{
+    font-family: 'Oswald';
+    background: linear-gradient(90deg, rgba(60,161,223,1) 5%, rgba(255,102,102,1) 100%); 
+}
+nav a.navbar-brand{
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+nav ul{
+    margin: auto;
+}
+
+nav li{
+    font-size: 19px;
+    padding-right: 10px;
+}
+
+nav li a.nav-link:hover{
+    border-bottom: 2px solid white;
+    transition: border-bottom 1.5s;
+}
+
+nav li a.nav-link {
+    color: white !important;
+    border-bottom: 2px solid transparent;
+}
+
+p.trait{
+    margin-top: -10px;
+    margin-left: 30px;
+    width: 0px;
+    border: 1px solid red;
+    position: relative;
+    background: linear-gradient(90deg, rgba(60,161,223,1) 5%, rgba(255,102,102,1) 100%); 
+}
+
+.liactive{
+    border-bottom: solid 2px white !important;
+}
+
+/**********************************************/
+
+/*
+** ACCUEIL 
+*/
+section.accueil{
+    font-family: "Oswald";
+    margin-top:-8px;
+    height: 750px;
+    background: linear-gradient(90deg, rgba(60,161,223,1) 5%, rgba(255,102,102,1) 100%); 
+}
+
+section.accueil img{
+    margin: auto;
+    display: block;
+    padding-top: 90px;
+}
+
+section.accueil h1{
+    color: white;
+    margin-top: 140px;
+    text-align: center;
+    font-size: 50px;
+}
+
+section.accueil h2{
+    color: transparent;
+    margin-top:100px;
+    padding: 50px;
+    text-align: center;
+    border: solid 2px transparent;
+}
+
+/**********************************************/
+
+/**
+* QUI SOMMES-NOUS ?
+*/
+section.qui_sommes_nous{
+    background-color: #E9EBEE;
+}
+section.qui_sommes_nous [name="qui_sommes_nous"]{
+    padding-top: 100px;
+}
+
+section.qui_sommes_nous [name="paragraphe"]{
+    padding-top: 80px;
+}
+
+section.qui_sommes_nous p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 767px) { 
+    section.qui_sommes_nous [name="paragraphe"]{
+        padding-top: 0;
+    } 
+}
+section.qui_sommes_nous [name="parent_citation"]{
+    background-color: #CC0000;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+}
+section.qui_sommes_nous p.citation{
+    color: white;
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 25px;
+    padding: 15px;
+}
+
+section.qui_sommes_nous #cercle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: #E9EBEE;
+    margin: auto;
+    margin-top: 60px;
+    position: relative;
+}
+
+/**
+* Approche et inspiration
+*/
+section.approche{
+    margin-top: -45px;
+    background-color: #3ca1df;
+    color: white;    
+}
+
+
+section.approche [name="container_parent"]{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section.approche h2{
+    font-family: "Oswald";
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+section.approche img{
+    border-image: #CC0000;
+    margin: auto;
+    display: block;
+}
+
+section.approche [name="description"] p{
+    margin:0;
+    text-align: center;
+}
+
+section.approche [name="description"] p.nom{
+    font-size: 17px;
+}
+
+section.approche [name="description"] p.poste{
+    font-size: 20px;
+}
+
+section.approche #cercle-in{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #E9EBEE;
+    margin: auto;  
+}
+section.approche #cercle-in p{
+    text-align: center;
+    color: #3ca1df;
+    font-size: 20px;
+    padding: 5px;
+}
+
+section.approche [name="resume"] p{
+    text-align: justify;
+} 
+section.approche [name="container_citation"]{
+    border: solid 2px white;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section.approche [name="container_citation"] p{
+    font-family: "oswald";
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+section.triangle{
+    background-color: #E9EBEE;
+}
+
+#triangle{
+    height : 0;
+    width : 0;
+    border-top : 66px solid #3ca1df;
+    border-right : 38px solid transparent;
+    border-left : 43px solid transparent;
+    text-align: right;
+   }
+/**
+* Méthode
+**/
+section.methode{
+    background-color: #E9EBEE;
+
+}
+
+section.methode h2{
+    color: #3ca1df;
+    font-family: "Oswald";
+    text-decoration: underline;
+    text-align: right;
+}
+section.methode [name="container_parent"]{
+    padding-top: 75px;
+}
+
+section.methode h3{
+    font-family: "Lato";
+    font-size: 25px;
+    margin-top: 50px;
+}
+section.methode [name="block_etapes"]{
+    margin-top: 50px;
+}
+
+section.methode ul li{
+    list-style-type: none;
+    margin-top: 20px;
+    font-family: "Lato";
+    margin: auto;
+    display: block;
+}
+
+section.methode ul li p{
+    margin: 0;
+    font-size: 18px;
+
+}
+
+section.methode span.cercle{
+    background: #3ca1df;
+    border-radius:50%;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    text-align: left;
+}
+
+@media (max-width: 991px) { 
+    section.methode img{
+        height: 200px;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 767px) { 
+    section.methode div.parent_cercle{
+        text-align: center;
+    }
+
+    section.methode ul li p{
+        text-align: center;
+    }
+
+    section.methode ul li{
+        margin-top: 30px;
+    }
+
+    section.methode img{
+        margin-top: 40px;
+    }
+}
+
+/**********************************************/
+
+
+
+ 
